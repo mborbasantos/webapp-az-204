@@ -66,5 +66,5 @@ jobs:
         with:
           app-name: 'mvbswebapp'
           slot-name: 'Production'
-          package: ./dist/
+          package: ./dist
           

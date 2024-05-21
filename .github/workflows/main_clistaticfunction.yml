@@ -21,6 +21,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: webapp-az-204/functions
+      
+      - name: 'Verificar pasta'
+        run: ls -la
 
       - name: Setup Node ${{ env.NODE_VERSION }} Environment
         uses: actions/setup-node@v3

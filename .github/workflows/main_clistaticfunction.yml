@@ -28,7 +28,7 @@ jobs:
       - name: 'Resolve Project Dependencies Using Npm'
         shell: bash
         run: |
-          ls -la webapp-az-204
+          ls -la
           pushd '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
           cd '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
           npm install
